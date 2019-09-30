@@ -4,7 +4,7 @@
              x:Class="PracticaCalificada2.pages.TabbedPageE">
     <ContentPage Title="Tab 1" >
         <StackLayout>
-            <Button Text="Close" x:Name="btnClose"/>
+            <Button Text="Tabbed Page" x:Name="btnClose"/>
         </StackLayout>
     </ContentPage>
     <ContentPage Title="Tab 2" />
