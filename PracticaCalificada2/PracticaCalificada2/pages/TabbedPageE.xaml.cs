@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace PracticaCalificada2.pages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class TabbedPageE : ContentPage
+	public partial class TabbedPageE : TabbedPage
 	{
 		public TabbedPageE ()
 		{

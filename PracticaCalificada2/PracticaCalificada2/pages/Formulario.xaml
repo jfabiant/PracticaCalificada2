@@ -6,7 +6,7 @@
         <StackLayout>
             <StackLayout Margin="3" Padding="2">
                 <Entry Placeholder="Ingresar nombre" x:Name="txtName"/>
-                <Editor x:Name="txtDescription" Placeholder="Ingresar descripcion" HeightRequest="100" />
+                <Editor Placeholder="Ingresar descripcion" HeightRequest="100" x:Name="txtDescription" />
                 <Button Text="Guardar" Clicked="btnSave"/>
             </StackLayout>
         </StackLayout>

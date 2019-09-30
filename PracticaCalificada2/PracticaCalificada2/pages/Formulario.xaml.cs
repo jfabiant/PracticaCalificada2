@@ -21,7 +21,7 @@ namespace PracticaCalificada2.pages
         {
             String name = txtName.Text;
             String description = txtDescription.Text;
-            DisplayAlert("PracticaCalificada2", "Hello " + name, "ACEPTAR");
+            DisplayAlert("PracticaCalificada2", name, "ACEPTAR");
         }
     }
 }
