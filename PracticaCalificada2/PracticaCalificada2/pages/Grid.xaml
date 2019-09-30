@@ -13,12 +13,15 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Label Text="Arribe izq. " Grid.Row="0" Grid.Column="0" />
-            <Label Text="Centro" Grid.Row="0" Grid.Column="1" />
-            <Label Text="Arriba dere." Grid.Row="0" Grid.Column="2" />
-            <Label Text="Abajo izq." Grid.Row="1" Grid.Column="0" />
-            <Label Text="Centro" Grid.Row="1" Grid.Column="1" />
-            <Label Text="Abajo dere." Grid.Row="1" Grid.Column="2" />
+            <Label Text="Xamarin.Forms" Grid.Row="0" Grid.Column="0" />
+            <Label Text="Xamarin.Forms" Grid.Row="0" Grid.Column="1" />
+
+            <Label Text="Xamarin.Forms" Grid.Row="1" Grid.Column="0" />
+            <Label Text="Xamarin.Forms" Grid.Row="1" Grid.Column="1" />
+
+            <Label Text="Xamarin.Forms" Grid.Row="2" Grid.Column="0" />
+            <Label Text="Xamarin.Forms" Grid.Row="2" Grid.Column="1" />
+
         </Grid>
     </ContentPage.Content>
     
