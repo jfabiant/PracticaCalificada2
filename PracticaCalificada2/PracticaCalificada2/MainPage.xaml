@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PracticaCalificada2"
+             x:Class="PracticaCalificada2.MainPage">
+
+    <ContentPage.Content>
+
+        <StackLayout Margin="5" Padding="2">
+            <Button Clicked="Ejercicio1" Text="Stacklayout"/>
+            <Button Clicked="Ejercicio2" Text="Grid"/>
+            <Button Clicked="Ejercicio3" Text="Hierarchical Navigations"/>
+            <Button Clicked="Ejercicio4" Text="Tabbed Page"/>
+            <Button Clicked="Ejercicio5" Text="Formulario"/>
+            <Button Clicked="Ejercicio6" Text="Datepicker"/>
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

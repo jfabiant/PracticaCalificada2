@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PracticaCalificada2.pages.Grid">
+    
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Arribe izq. " Grid.Row="0" Grid.Column="0" />
+            <Label Text="Centro" Grid.Row="0" Grid.Column="1" />
+            <Label Text="Arriba dere." Grid.Row="0" Grid.Column="2" />
+            <Label Text="Abajo izq." Grid.Row="1" Grid.Column="0" />
+            <Label Text="Centro" Grid.Row="1" Grid.Column="1" />
+            <Label Text="Abajo dere." Grid.Row="1" Grid.Column="2" />
+        </Grid>
+    </ContentPage.Content>
+    
+</ContentPage>
