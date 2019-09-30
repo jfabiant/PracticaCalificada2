@@ -5,9 +5,9 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Margin="3" Padding="2">
-                <Entry Text="Ingresar nombre"/>
-                <Entry Text="Ingresar descripcion"/>
-                <Button Text="Guardar"/>
+                <Entry Placeholder="Ingresar nombre" x:Name="txtName"/>
+                <Entry Placeholder="Ingresar descripcion" x:Name="txtDescription"/>
+                <Button Text="Guardar" Clicked="btnSave"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

@@ -4,9 +4,7 @@
              x:Class="PracticaCalificada2.pages.Datepicker">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <DatePicker x:Name="datePicker" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

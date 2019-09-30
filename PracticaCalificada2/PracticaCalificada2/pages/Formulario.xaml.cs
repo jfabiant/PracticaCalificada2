@@ -16,5 +16,12 @@ namespace PracticaCalificada2.pages
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void btnSave(object sender, EventArgs e)
+        {
+            String name = txtName.Text;
+            String description = txtDescription.Text;
+            DisplayAlert("PracticaCalificada2", "Hello " + name, "ACEPTAR");
+        }
+    }
 }

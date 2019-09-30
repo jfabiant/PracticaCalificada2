@@ -9,7 +9,7 @@
         HorizontalOptions="FillAndExpand" />
             <BoxView Color="Green" VerticalOptions="FillAndExpand"
         HorizontalOptions="FillAndExpand" />
-            <Button Text="STACKLAYOUT" VerticalOptions="Start"
+            <Button Text="Stacklayout" VerticalOptions="Start"
         HorizontalOptions="FillAndExpand" />
         </StackLayout>
     </ContentPage.Content>

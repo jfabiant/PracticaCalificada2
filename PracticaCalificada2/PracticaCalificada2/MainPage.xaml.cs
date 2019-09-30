@@ -36,7 +36,7 @@ namespace PracticaCalificada2
         }
         private async void Ejercicio6(object sender, EventArgs e) // Datepicker
         {
-            await Navigation.PushAsync(new pages.Stacklayout());
+            await Navigation.PushAsync(new pages.Datepicker());
         }
 
 
